@@ -5,28 +5,53 @@
 // O objetivo é utilizar estruturas de repetição e funções para determinar os limites de movimentação dentro do jogo.
 
 int main() {
-    // Nível Novato - Movimentação das Peças
-    // Sugestão: Declare variáveis constantes para representar o número de casas que cada peça pode se mover.
+ //movimento  torre 5 casas para a direita //
+  for (int i=0; i < 5; i++)
+  {
 
-    // Implementação de Movimentação do Bispo
-    // Sugestão: Utilize uma estrutura de repetição para simular a movimentação do Bispo em diagonal.
+    //direçao do movimento//
 
-    // Implementação de Movimentação da Torre
-    // Sugestão: Utilize uma estrutura de repetição para simular a movimentação da Torre para a direita.
+    printf("direita \n");
+  
+  }
 
-    // Implementação de Movimentação da Rainha
-    // Sugestão: Utilize uma estrutura de repetição para simular a movimentação da Rainha para a esquerda.
+  //movimento  bispo 5 casas diagonal //
+  int movimento_bispo  = 0 ; //variavel de movimento
 
-    // Nível Aventureiro - Movimentação do Cavalo
-    // Sugestão: Utilize loops aninhados para simular a movimentação do Cavalo em L.
-    // Um loop pode representar a movimentação horizontal e outro vertical.
+  while (movimento_bispo <=5) 
+  { //direçao do movimento//
+        printf("Cima\n");
+        printf("Direita\n");
 
-    // Nível Mestre - Funções Recursivas e Loops Aninhados
-    // Sugestão: Substitua as movimentações das peças por funções recursivas.
-    // Exemplo: Crie uma função recursiva para o movimento do Bispo.
+        movimento_bispo++;// incremento//
 
-    // Sugestão: Implemente a movimentação do Cavalo utilizando loops com variáveis múltiplas e condições avançadas.
-    // Inclua o uso de continue e break dentro dos loops.
+  }
+ 
+  // movimento rainha 8 casas esquerda //
+  int movimento_rainha=0;  //variavel de movimento//
 
-    return 0;
+  do
+  {//direçao do movimento//
+    printf("esquerda\n");
+    movimento_rainha++;//incremento//
+    
+  } while (movimento_rainha<8);
+  
+
+
+
+
+  return 0;
+
+
+
+
+
 }
+
+
+
+
+
+    
+    
